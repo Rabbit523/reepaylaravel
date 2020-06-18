@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a8c9d8c8-b194-40a1-a17b-219414af941d" name="217.160.142.132" url="http://217.160.142.132">
+        <fileTransfer host="217.160.142.132" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="357f7871-dcc1-4940-96d0-15a7f36a5aba" name="ftp.briskgeek.com" url="http://ftp.briskgeek.com">
+        <fileTransfer host="ftp.briskgeek.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
