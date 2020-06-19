@@ -7,6 +7,7 @@ Route::post('/dashboard/profile/save', 'ProfileController@saveDetails')->name('d
 Route::post('/dashboard/profile/password/save', 'ProfileController@savePassword')->name('dashboard/password/save');
 Route::get('/dashboard/profile/subscription', 'SubscriptionController@index')->name('dashboard/subscription');
 Route::get('/dashboard/profile/invoices', 'InvoicesController@index')->name('dashboard/invoices');
+Route::get('/dashboard/profile/invoice/{id}', 'InvoicesController@detail')->name('dashboard/invoices/detail');
 
 Route::get('/dummyInvoice', 'PaymentEndpoint@dummyInvoice');
 

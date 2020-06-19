@@ -1,0 +1,6 @@
+/vendor/
+/node_modules/
+/dist-js/
+.vs
+.idea
+composer.lock
